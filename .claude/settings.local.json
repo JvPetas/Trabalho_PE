@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\João Vitor\\\\Desktop\\\\trabalho_nba\")",
+      "Bash(Out-Null)",
+      "Bash(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\João Vitor\\\\Desktop\\\\trabalho_nba\\\\graficos_nba\")",
+      "Bash(Write-Output \"Pastas criadas com sucesso\")",
+      "Bash(python3 *)",
+      "PowerShell($csvPath = \"C:\\\\Users\\\\Jo�o Vitor\\\\.cache\\\\kagglehub\\\\datasets\\\\eduardopalmieri\\\\nba-player-stats-season-2425\\\\versions\\\\39\\\\nba_dailyleaders_full_24_25.csv\")",
+      "PowerShell(python \"C:\\\\Users\\\\João Vitor\\\\Desktop\\\\trabalho_nba\\\\nba_analise.py\" 2>&1)",
+      "PowerShell(pip install *)",
+      "PowerShell(python -c \"import streamlit; print\\('streamlit', streamlit.__version__\\)\" 2>&1)",
+      "Bash(python _compute_gaps.py)",
+      "Bash(Remove-Item *)",
+      "Bash(python *)",
+      "PowerShell(python \"C:\\\\Users\\\\João Vitor\\\\Desktop\\\\Trabalho PE\\\\reorganizar.py\")",
+      "PowerShell($env:PYTHONIOENCODING = \"utf-8\"; python \"C:\\\\Users\\\\João Vitor\\\\Desktop\\\\Trabalho PE\\\\reorganizar.py\")",
+      "PowerShell($env:PYTHONIOENCODING = \"utf-8\"; python \"C:\\\\Users\\\\João Vitor\\\\Desktop\\\\Trabalho PE\\\\ajustes_finais.py\")",
+      "PowerShell($env:PYTHONIOENCODING = \"utf-8\"; python \"C:\\\\Users\\\\João Vitor\\\\Desktop\\\\Trabalho PE\\\\codigo\\\\gerar_docx.py\")",
+      "PowerShell(Start-Process \"C:\\\\Users\\\\João Vitor\\\\Desktop\\\\Trabalho PE\\\\entrega\\\\relatorio_NBA_final.docx\")",
+      "PowerShell($env:PYTHONIOENCODING = \"utf-8\"; python \"C:\\\\Users\\\\João Vitor\\\\Desktop\\\\Trabalho PE\\\\correcoes_finais.py\")",
+      "Bash(awk '{print $NF, $5}')",
+      "Bash(Get-ChildItem \"C:\\\\Users\\\\João Vitor\\\\Desktop\\\\Trabalho PE\\\\graficos_nba\\\\*.png\")",
+      "Bash(Select-Object Name, Length)",
+      "Bash(Format-Table -AutoSize)"
+    ]
+  }
+}
